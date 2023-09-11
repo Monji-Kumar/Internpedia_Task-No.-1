@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    font-size: 90px;
+}
+.h3{
+    font-size: 45px;
+}
+.container{
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-color{
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.062)), url(top_bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.padder-attributes{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.flex-col{
+    flex-direction: column;
+}
+.bg-attribute{
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(32, 32, 32, 0.534)), url(collage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.attribute-content a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+.p{
+    font-size: 20px;
+    padding-left: 250px;
+}
+.p1{
+    font-size: 20px;
+    padding-left: 25px; 
+}
+.pad-top200{
+    padding-top: 200px;
+}
+.pad-top5{
+    padding-top: 5px;
+}
+.pad-top120{
+    padding-top: 120px;
+}
+.pad-left{
+    padding-left: 100px;
+}
+.pad-right{
+    padding-right: 100px;
+}
+.top-left{
+    width: 50%;
+}
+.top-right{
+    width: 50%;
+}
+.bottom-left{
+    width: 50%;
+}
+.bottom-right{
+    width: 50%;
+}
+.section1{
+    height: 350px;
+}
+.attribute-image img{
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+.attribute-image1 img{
+    display: block;
+    width: auto;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    transition: 2s ease;
+}
+.attribute-image:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.attribute-image1:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.attribute-content a:hover,
+.attribute-image a:hover,
+.attribute-image1 a:hover{
+    content: "";
+    width:60%;
+    height: 2px;
+    color: rgb(255, 102, 0);
+    bottom: -4px;
+    left:20px;
+    transition: 0.3s ease;
+}
+.textcolor-white
+{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    padding: 20px 20px;
+    position: relative;
+}
+.navbar li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.navbar li a.active::after,
+.navbar li a:hover{
+    content: "";
+    width:60%;
+    height: 2px;
+    color: rgb(255, 102, 0);
+    /* position: absolute; */
+    bottom: -4px;
+    left:20px;
+}
+.logo img{
+    width: 75px;
+    height: auto;
+}
+.title a{
+    margin: 5px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.register button{
+    font-size: 20px;
+    font-weight: 600;
+    padding:21px 28px;
+    color:rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+.register button:hover{
+    background: rgb(255, 255, 255);
+    color:  rgb(255, 102, 0);
+    border-radius: 30px;
+}
+::placeholder{
+    color: black;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+.searchbar {
+    width: 100%;
+    max-width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.589);
+    background-clip: padding-box;
+    line-height: 1.5;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px) saturate(180%);
+    /* font-style: ; */
+}
+.searchbar button img{
+    width: 25px;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 102, 0);
+    cursor: pointer;
+}
+.display{
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+}
+.foot-bg{
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(32, 32, 32, 0.534)), url(manga-collage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
